@@ -11,6 +11,7 @@ public class Main {
         double  j = 0;
         double  sum1 =0;
         Scanner scanner = new Scanner(System.in);
+        // when the loop is looped once
         while(count==1) {
             System.out.println("Enter number #"+count+" : ");
 
@@ -32,6 +33,7 @@ public class Main {
             }
             count++;
         }
+        // when looped is looped more than once
         while(count>1) {
             System.out.println("Enter number #"+count+" : ");
 
